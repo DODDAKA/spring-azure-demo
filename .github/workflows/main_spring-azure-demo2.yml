@@ -48,6 +48,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'spring-azure-demo2'  ##########spring-azure-demo2'
-          slot-name: 'dev'
+          slot-name: 'production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}   ##secrets.AZUREAPPSERVICE_PUBLISHPROFILE_354D9AFE56FE418AACBBA09B1348131C
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_354D9AFE56FE418AACBBA09B1348131C }}   ##secrets.AZUREAPPSERVICE_PUBLISHPROFILE_354D9AFE56FE418AACBBA09B1348131C
