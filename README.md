@@ -1,4 +1,7 @@
 # spring-azure-demo
+Create Azure web app and deploy application using github actions and mount the Azure file share to Web app.
+And use key vault for storing the storage account key and pass the key via web app environment variables.
+
 spring-azure-demo
 
 ![image](https://github.com/user-attachments/assets/2d295ab8-b7a6-4ddd-a79f-0ae6071eaccb)
